@@ -1,0 +1,3 @@
+[submodule "libraries/Veer"]
+	path = libraries/Veer
+	url = https://github.com/tdelort/Veer.git
