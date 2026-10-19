@@ -33,11 +33,6 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
-
 # Build directories
 build/
 Build/
@@ -66,3 +61,5 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+.git/
+.vscode/

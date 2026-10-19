@@ -5,8 +5,14 @@ project(TEEngine VERSION 0.1.0)
 
 add_library(TEEngine STATIC )
 
-target_sources(TEEngine
-    PRIVATE
+add_subdirectory(src)
+target_include_directories(TEEngine
+    PUBLIC
+        include
+
+    # TODO : meh, when I have a clear seperation between private and public API ( in include vs src ) I should get this back to PRIVATE
+    PUBLIC 
+        src
 )
 
 target_compile_features(TEEngine PUBLIC cxx_std_20)
