@@ -6,6 +6,7 @@ project(TEEngine VERSION 0.1.0)
 add_library(TEEngine STATIC )
 
 add_subdirectory(src)
+add_subdirectory(data)
 target_include_directories(TEEngine
     PUBLIC
         include
